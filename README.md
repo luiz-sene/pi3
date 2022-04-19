@@ -13,3 +13,8 @@ DISPOSITIVO PARA COLETAR DADOS DE NÚMERO DE PASSOS DE ATLETAS DE BAIXO RENDIMEN
   
 2. REQUISITOS
 3. 
+
+BRINQUEDO PARA GATOS
+
+Este projeto tem como objetivo manufaturar um protótipo de brinquedo para felinos que seja acionado automaticamente por proximidade. Uma vez acionado iremos armazenar alguns dados como: Quantidade de vezes que o animal aciona o brinquedo, horários de acionamento e tempo médio de brincadeira, e disponibilizar visualmente os dados para o usuário.
+O brinquedo consiste em uma haste flexível que possui na ponta um chamariz para o gato, como penas ou algo similar de forma a chamar a atenção do bichano. Ao ser ativado pela proximidade do gato, um motor é ativado, girando a haste por um tempo determinado. Todo o sistema será controlado por um microcontrolador que se comunicará com um aplicativo para smartphone, permitindo a visuzalização das informações coletadas e  também que se possa operar por ele o dispositivo.
