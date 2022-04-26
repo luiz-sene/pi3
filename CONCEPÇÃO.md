@@ -11,4 +11,13 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 2. Acionamento da haste flexível por um sensor de proximidade
 3. Armazenar dados: Horário de acionamento, Quantidade de acionamentos, Tempo de uso
 4. Disponibilizar dados: Tempo médio de uso
-5. 
+5. Comunicação via ...
+
+
+
+# OBSERVAÇÕES DIVERSAS
+
+1. Pesquisar o QT para fazer o aplicativo android
+2. Definir tipo de comunicação
+3. Definir onde armazenar dados (aplicativo ou microcontrolador)
+4. 
