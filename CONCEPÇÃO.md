@@ -14,6 +14,9 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 5. Comunicação via ...
 
 
+# CONCORRENTE
+
+Foi encontrado apenas um concorrente, que possui comunicação e controle apenas por controle remoto, alimentado por pilhas. Não há muita especificação encontrada na internet, mas as diferenças citadas acima do nosso projeto já foram encontradas. 
 
 # OBSERVAÇÕES DIVERSAS
 
