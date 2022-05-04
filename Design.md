@@ -1,21 +1,22 @@
 # Design
-Seguindo as necessidades apresentadas na concepção do projeto, apresentaremos os componentes que serão utilizados neste projeto, bem como analisaremos as escolhas de acordo com as caracteristicas de alguns componentes do mercado
+Seguindo as necessidades apontadas na concepção do projeto, apresentaremos os componentes que serão utilizados neste projeto, bem como analisaremos as escolhas de acordo com as caracteristicas de alguns componentes do mercado.
 
 ## Componentes
 
-|Quantidade|Componente|
-|:-:|:-:|
-|1|Microcontrolador|
-|1|Módulo Bluetooth|
-|1|Sensor de Proximidade|
-|1|Servomotor|
-|1|Haste Flexivel com bagulhinho na ponta|
-|1|Módulo de carrinho Vrum Vrum|
+|Quantidade|Componente|Custo no Projeto|
+|:-:|:-:|:-:|
+|1|Microcontrolador||
+|1|Módulo Bluetooth||
+|1|Sensor de Proximidade||
+|1|Servomotor||
+|1|Bateria 9V recarregavel||
+|1|Haste Flexivel com bagulhinho na ponta|R$-|
+|1|Módulo de carrinho Vrum Vrum|R$-|
 
 ## Bluetooth VS WiFi
 
 |#|  **BLUETOOTH** | **WIFI** |
-|-|:-:|:-:|
+|:-|:-:|:-:|
 |Protocolo de Comunicação|IEEE 802.15.1|802.11|
 |Frequencia (Hz)|2,4G|2,4~5G|
 |Alcance|Até 100m|Maior que 100m|
@@ -34,5 +35,11 @@ O módulo de comunicação escolhido foi o bluetooth devido ao baixo consumo ene
 Possibilidades
  1. Cortex M0
  2. Cortex M3
- 3. Arduino
+ 3. ATMEGA328
  4. MSP430
+
+O que precisa que faça, quais me atendem, preços, descartar arduino,
+
+## Interface para Smartphone
+
+Algumas
