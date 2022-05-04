@@ -5,7 +5,7 @@ Este projeto tem como objetivo manufaturar um protótipo de brinquedo para felin
 
 O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo controle do usuário, além de uma haste flexível na parte superior, a qual será ativado pela proximidade do gato. Ao ser ativado, um motor é acionado, girando a haste por um tempo determinado. Está haste possui na ponta um chamariz para o gato, como penas ou algo similar de forma a chamar a atenção do bichano. Uma vez acionado iremos armazenar certos dados como: Quantidade de vezes que o animal aciona o brinquedo, horários de acionamento e tempo de uso, além de disponibilizar visualmente os dados para o usuário. Todo o sistema será controlado por um microcontrolador que se comunicará com um aplicativo para smartphone, permitindo a ativação e desativação do dispositivo, o controle do movimento da base móvel e a visuzalização das informações coletadas.
 
-# REQUISITO
+## REQUISITO
 
 1. Movimentação da base controlada por aplicativo para smartphone
 2. Acionamento da haste flexível por um sensor de proximidade
@@ -13,29 +13,15 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 4. Disponibilizar dados: Tempo médio de uso
 5. Comunicação via Bluetooth
 
-# Bluetooth VS WiFi
-
-|#|  **BLUETOOTH** | **WIFI** |
-|-|:-:|:-:|
-|Protocolo de Comunicação|IEEE 802.15.1|802.11|
-|Frequencia (Hz)|2,4G|2,4~5G|
-|Alcance|Até 100m|Maior que 100m|
-|Custo de Mercado*|R$27,90|R$24,90|
-|Alimentação|Baixo Consumo|Alto Consumo|
-|Vantagem|Baixo Custo|Longo Alcance|
-|Desvantagem|Baixo Alcance|Alto consumo energético|
-
-*Pesquisado em 04/05/2022 - FilipeFlop
-
-# Microcontrolador
-
-CO
-
-# CONCORRENTE
+## CONCORRENTE
 
 Foi encontrado apenas um concorrente, que possui comunicação e controle apenas por controle remoto, alimentado por pilhas. Não há muita especificação encontrada na internet, mas as diferenças citadas acima do nosso projeto já foram encontradas. 
 
-# OBSERVAÇÕES DIVERSAS
+## Publico Alvo
+
+![Publico Alvo](https://github.com/juliopacheco12/PIN22107/blob/main/Imagens/image.png)
+
+## OBSERVAÇÕES DIVERSAS
 
 1. Pesquisar o QT para fazer o aplicativo android
 2. Definir onde armazenar dados (aplicativo ou microcontrolador)
