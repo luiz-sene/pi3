@@ -12,8 +12,18 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 3. Armazenar dados: Horário de acionamento, Quantidade de acionamentos, Tempo de uso
 4. Disponibilizar dados: Tempo médio de uso
 5. Comunicação via Bluetooth
-6. 
 
+# Bluetooth VS WiFi
+
+|#|  **BLUETOOTH** | **WIFI** |
+|-|:-:|:-:|
+|Protocolo de Comunicação|IEEE 802.15.1|802.11|
+|Frequencia (Hz)|2,4G|2,4~5G|
+|Alcance|Até 100m|Maior que 100m|
+|Custo de Mercado|R$48,90|R$24,90|
+|Alimentação|Baixo Consumo|Alto Consumo|
+|Vantagem|Baixo Custo|Longo Alcance|
+|Desvantagem|Baixo Alcance|Alto consumo energético|
 
 # CONCORRENTE
 
