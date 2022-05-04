@@ -12,6 +12,7 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 3. Armazenar dados: Horário de acionamento, Quantidade de acionamentos, Tempo de uso
 4. Disponibilizar dados: Tempo médio de uso
 5. Comunicação via Bluetooth
+6. Target Price: 
 
 ## CONCORRENTE
 
