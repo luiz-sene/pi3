@@ -20,10 +20,16 @@ O brinquedo consiste em uma base móvel com 4 rodas que se movimente pelo contro
 |Protocolo de Comunicação|IEEE 802.15.1|802.11|
 |Frequencia (Hz)|2,4G|2,4~5G|
 |Alcance|Até 100m|Maior que 100m|
-|Custo de Mercado|R$48,90|R$24,90|
+|Custo de Mercado*|R$27,90|R$24,90|
 |Alimentação|Baixo Consumo|Alto Consumo|
 |Vantagem|Baixo Custo|Longo Alcance|
 |Desvantagem|Baixo Alcance|Alto consumo energético|
+
+*Pesquisado em 04/05/2022 - FilipeFlop
+
+# Microcontrolador
+
+CO
 
 # CONCORRENTE
 
