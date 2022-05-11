@@ -33,10 +33,11 @@ O módulo de comunicação escolhido foi o bluetooth devido ao baixo consumo ene
 ## Microcontrolador
 
 Possibilidades
- 1. Cortex M0
+ 1. ESP32
  2. Cortex M3
  3. ATMEGA328
- 4. MSP430
+
+
 
 O que precisa que faça, quais me atendem, preços, descartar arduino,
 
