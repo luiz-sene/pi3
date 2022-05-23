@@ -3,7 +3,7 @@ Seguindo as necessidades apontadas na concepção do projeto, apresentaremos os 
 
 ## Componentes
 
-|Quantidade|Componente|Custo no Projeto|
+|Quantidade|Componente|Custo no Mercado|Custo no Projeto|
 |:-:|:-:|:-:|:-:|
 |1|Microcontrolador|R$69,90||
 |1|Módulo Bluetooth|Integrado ao Microcontrolador||
