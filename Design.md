@@ -45,7 +45,11 @@ O que precisa que faça, quais me atendem, preços, descartar arduino,
 
 ## ServoMotor
 
-Já tivemos experiência com o Servomotor Tower Pro SG90. Este servomotor pode rotacionar em aproximadamente 180º, 90º para cada lado. Possui cerca de 9g e 3 pinos analógicos: VCC, GND e comando. Ele opera em um torque de 8kgfcm, velocidade de 60º/0.1s e tensão de operação de 3V a 7,2V. Por fim, ele é um dos mais baratos do mercado.
+Já tivemos experiência com o Servomotor Tower Pro SG90. Este servomotor pode rotacionar em aproximadamente 180º, 90º para cada lado. Possui cerca de 9g e 3 pinos analógicos: VCC, GND e comando. Ele opera em um torque de 8kgfcm, velocidade de 60º/0.1s e tensão de operação de 3V a 7,2V. Por fim, ele é um dos mais baratos do mercado. - #Não deu - Não vai dar de usar, por conta da fragilidade do material de plástico
+
+Utilizar o MG995
+
+
 
 ## Sensor de proximidade
 
@@ -58,6 +62,14 @@ O alcance do sensor é de 2 à 80 cm, que pode ser ajustado por meio do potenci�
 ### Escolha
 
 Sensor de Obstaculo Infravermelho - KY-032 ou similar
+
+## Bateria
+
+2 Baterias de litio em série que já estão inseridas no carrinho do professor 3,7V
+
+## Regulador de tensão chaveado
+
+Regulador de Tensão LM2596 Conversor DC-DC Step Down ou similar
 
 ## Interface para Smartphone
 
