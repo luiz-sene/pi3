@@ -1,0 +1,1 @@
+Pasta especifica para codificação
