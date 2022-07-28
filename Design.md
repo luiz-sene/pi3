@@ -5,13 +5,14 @@ Seguindo as necessidades apontadas na concepção do projeto, apresentaremos os 
 
 |Quantidade|Componente|Custo no Mercado|Custo no Projeto|
 |:-:|:-:|:-:|:-:|
-|1|Microcontrolador|R$69,90||
+|1|Microcontrolador|R$69,90|R$-|
 |1|Módulo Bluetooth|Integrado ao Microcontrolador|R$-|
-|1|Sensor de Proximidade|R$5,49||
-|1|Servomotor|R$29,90||
-|1|Bateria 9V recarregavel|R$19,98||
+|1|Sensor de Proximidade|R$5,49|R$-|
+|1|Servomotor|R$59,90||
+|1|Bateria 9V recarregavel|R$19,98|R$-|
 |1|Haste Flexivel com bagulhinho na ponta|R$-|R$-|
 |1|Módulo de carrinho Vrum Vrum|R$-|R$-|
+||Total|R$159,90|R$0,00|
 
 ## Bluetooth VS WiFi
 
@@ -71,6 +72,12 @@ Sensor de Obstaculo Infravermelho - KY-032 ou similar
 
 Regulador de Tensão LM2596 Conversor DC-DC Step Down ou similar
 
-## Interface para Smartphone
+## Interface para Usuário
 
-Algumas
+Existem alguns softwares no mercado para implementar uma interface de controle para o usuário. Neste projeto, pensamos em 2 opções: implementar uma interface para o usuário no Qt Creator, orientando toda a programação deste projeto a objetos; ou utilizar o MIT App Inventor para implementar um aplicativo para smartphone.
+
+O Qt Creator é um ambiente de desenvolvimento integrado (IDE) multiplataforma criado para a máxima experiência do desenvolvedor. O Qt Creator é executado nos sistemas operacionais de desktop Windows, Linux e macOS e permite que os desenvolvedores criem software em plataformas desktop, móveis e incorporadas.
+
+O MIT App Inventor é um ambiente de programação visual intuitivo que permite que todos criem aplicativos totalmente funcionais para telefones Android, iPhones e tablets Android/iOS. Essa ferramenta é baseada em blocos, facilitando a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais.
+
+No caso do Qt Creator, pudemos ter o auxilio e orientação do Profº Hugo Marcondes, na disciplina de Programação Orientada a Objetos. No entanto, nesta disciplina utilizamos apenas o framework do Arduino para implementar nossos objetivos. Como este framework era dispensável para a disciplina de Projeto Integrador III, implementamos também uma interface final no MIT App Inventor.
