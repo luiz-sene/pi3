@@ -44,7 +44,9 @@ O microcontrolador escolhido foi o ESP32, pois é o que melhor atende as nossas 
 
 Além disso, ele está disponível junto ao professor Charles, que trabalhará com este microcontrolador na disciplina de Microcontroladores 2.
 
-O que precisa que faça, quais me atendem, preços, descartar arduino,
+## Framework
+
+Foi utilizado o framework ESP-IDF, que é o framework oficial da Espressif para o desenvolvimento de aplicações parar toda a família ESP32.
 
 ## ServoMotor
 
