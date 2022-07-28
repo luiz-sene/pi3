@@ -27,5 +27,7 @@ Por fim, devido ao encurtamento do semestre 2022/1, o qual teve menos semanas qu
 
 Era de desejo nosso realizar estes três pontos, mas infelizmente não foi possível. Como citado, solucionamos a falta destes pontos da seguinte forma:
 1. Estrutura de cabos jumper para conexão entre componentes, validando o caso;
-2. Apenas realizando validação do funcionamento, visto que esta estrutura seria apenas para "embelezar" o projeto;
-3. Acoplar componentes diretamente na estrutura existente do carrinho.
+2. Apenas realizando validação do funcionamento servo motor, visto que esta estrutura seria acoplada às hastes giratórias do servo e serviria apenas para "embelezar" o projeto;
+3. Acoplar componentes diretamente na estrutura pré existente do carrinho.
+
+## Sugestões para trabalhos futuros
