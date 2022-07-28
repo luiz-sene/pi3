@@ -68,7 +68,7 @@ Sensor de Obstaculo Infravermelho - E18-D80NK
 
 ## Bateria
 
-2 Baterias de litio em série que já estão inseridas no prototipo do carrinho disponível do LPAE 3,7V
+2 Baterias de litio em série que já estão inseridas no prototipo do carrinho disponibilizado pelo DAELN 3,7V. Para alimentar o esp32 foi utilizado um Power Bank independente de 5V.
 
 ## Regulador de tensão chaveado
 
