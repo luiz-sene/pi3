@@ -7,12 +7,12 @@ Seguindo as necessidades apontadas na concepção do projeto, apresentaremos os 
 |:-:|:-:|:-:|:-:|
 |1|Microcontrolador|R$69,90|R$-|
 |1|Módulo Bluetooth|Integrado ao Microcontrolador|R$-|
-|1|Sensor de Proximidade|R$5,49|R$-|
+|1|Sensor de Obstáculo|R$49,90|R$-|
 |1|Servomotor|R$59,90||
 |1|Bateria 9V recarregavel|R$19,98|R$-|
 |1|Haste Flexivel com bagulhinho na ponta|R$-|R$-|
 |1|Módulo de carrinho Vrum Vrum|R$-|R$-|
-||Total|R$159,90|R$0,00|
+||Total|R$199,98|R$0,00|
 
 O custo total deste projeto foi zerado pois todos os componentes utilizados estavam disponíveis nos laboratórios do DAELN/IFSC.
 
@@ -58,11 +58,11 @@ O sensor de obstáculo é um circuito composto por um emissor e um receptor IR, 
 
 Seu funcionamento é simples: quando algum obstáculo é colocado em frente ao sensor, o sinal infravermelho é refletido para o receptor. Quando isso acontece, o pino de saída OUT é colocado em nível baixo (0), e o led verde do módulo é aceso, indicando que algum obstáculo foi detectado.
 
-O alcance do sensor é de 2 à 80 cm, que pode ser ajustado por meio do potenciômetro na placa. O sensor de obstáculo é um componente que atende as nossas necessidades.
+O alcance do sensor é de 3 à 80 cm, que pode ser ajustado por meio do potenciômetro na placa. O sensor de obstáculo é um componente que atende as nossas necessidades.
 
 ### Escolha
 
-Sensor de Obstaculo Infravermelho - KY-032 ou similar
+Sensor de Obstaculo Infravermelho - E18-D80NK
 
 ## Bateria
 
