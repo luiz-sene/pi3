@@ -68,7 +68,7 @@ Sensor de Obstaculo Infravermelho - E18-D80NK
 
 ## Bateria
 
-2 Baterias de litio em série que já estão inseridas no carrinho do professor 3,7V
+2 Baterias de litio em série que já estão inseridas no prototipo do carrinho disponível do LPAE 3,7V
 
 ## Regulador de tensão chaveado
 
