@@ -5,20 +5,23 @@
 #include <freertos/task.h>
 #include "pwm.h"
 
+/*Conforme a documentação disponibilizado do carrinho, ele utiliza duas pontes H, uma para cada lado, portanto
+aqui utilizamos os pinos 18 e 19 para o lado direito, um para andar pra frente e outro para tras, respectivamente
+e os pinos 25 e 26 para o lado esquerdo*/
 
 /*define os pinos do pwm para andar para frente*/
 #define LEDC_TIMER                  LEDC_TIMER_0            // seleciona o timer 0, possui 3 timers
 #define LEDC_MODE                   LEDC_LOW_SPEED_MODE     // modo em low speed
-#define LEDC_OUTPUT_IO_DF           (18)                    // pino 14 de saida; direita frente
+#define LEDC_OUTPUT_IO_DF           (18)                    // pino 18 de saida; PWM1 
 #define LEDC_CHANNEL_DF             LEDC_CHANNEL_0          // seleciona o canal 0, possui 16
-#define LEDC_OUTPUT_IO_EF           (25)
-#define LEDC_CHANNEL_EF             LEDC_CHANNEL_1          // esquerda frente
+#define LEDC_OUTPUT_IO_EF           (25)                    // PWM2
+#define LEDC_CHANNEL_EF             LEDC_CHANNEL_1          // seleciona o canal 1
 
 /*define os pinos do pwm para andar para tras*/
-#define LEDC_OUTPUT_IO_DF_r           (19)                    // pino 14 de saida; direita frente dando re
+#define LEDC_OUTPUT_IO_DF_r           (19)                    // PWM1N
 #define LEDC_CHANNEL_DF_r             LEDC_CHANNEL_4          // seleciona o canal 0, possui 16
-#define LEDC_OUTPUT_IO_EF_r           (26)
-#define LEDC_CHANNEL_EF_r             LEDC_CHANNEL_5          // esquerda frente
+#define LEDC_OUTPUT_IO_EF_r           (26)                    // PWM2N
+#define LEDC_CHANNEL_EF_r             LEDC_CHANNEL_5          // 
 
 #define LEDC_DUTY_RES               LEDC_TIMER_13_BIT       // resolução de 13 bits, maximo 15
 #define LEDC_DUTY                   (0)                  // 13bits = 8000+, 4095 = 50% da resolução
@@ -149,9 +152,15 @@ void ledc_init_EF_r(void)
     ;
 };
 
+    
+/*Função que define o sentido de movimentação do motor. 
+Se sentido igual a 1 carro se movimenta pra frente e zera o duty cicle que movimenta a roda para tras
+caso contrario o duty cycle relacionado ao pwm para andar pra frente e zerado e pwm que movimenta para
+tras e acionado*/
 
 void movimenta_DF(int32_t duty, int32_t sentido){
-    /*se senstido igual a 1 carro se movimenta pra frente e zera o duty cicle que movimenta a roda para tras*/
+
+    
     if(sentido == 1){
          /*define o duty cycle com o valor duty%*/
         ledc_set_duty(LEDC_MODE, LEDC_CHANNEL_DF, duty);
@@ -177,7 +186,7 @@ void movimenta_DF(int32_t duty, int32_t sentido){
 }
 
 void movimenta_EF(int32_t duty, int32_t sentido){
-    /*se senstido igual a 1 carro se movimenta pra frente e zera o duty cicle que movimenta a roda para tras*/
+
     if(sentido == 1){
          /*define o duty cycle com o valor duty%*/
         ledc_set_duty(LEDC_MODE, LEDC_CHANNEL_EF, duty);
@@ -202,6 +211,11 @@ void movimenta_EF(int32_t duty, int32_t sentido){
     }
 }
 
+/*Função para controlar a direção do carrinho.
+para que uma curva seja feita o pwm da direção oposta a desejada e diminuido
+tambem e definido o sentido da movimentação, se direção for igual a 4 o sentido passado para função
+que movimenta o carrinho se torna difrente de 1, dessa forma o carrinho estara dando re, ate que seja enviado
+o comando para que ele ande para frente, alterando o valor do sentiro para 1 novamente*/
 
 void direcao(int32_t dir,int32_t duty){
     
@@ -215,24 +229,24 @@ void direcao(int32_t dir,int32_t duty){
 
         case 1: /*movimento para frente*/
         movimenta_DF(duty,sentido);
-        movimenta_EF(duty+1000,sentido);
+        movimenta_EF(duty,sentido);
           break;
 
         case 2: /*movimento para a direita*/
         movimenta_DF(duty,sentido);
-        movimenta_EF((duty+2000)/3,sentido);
+        movimenta_EF(duty/3,sentido);
 
         break;
 
         case 3: /*movimento para a para esquerda*/
         movimenta_DF(duty/3,sentido);
-        movimenta_EF((duty+2000)/3,sentido);
+        movimenta_EF(duty/3,sentido);
 
         break;
 
         case 4: /*movimento de re*/
         movimenta_DF(duty,sentido);
-        movimenta_EF((duty+1000),sentido);
+        movimenta_EF(duty,sentido);
 
         break;
 
