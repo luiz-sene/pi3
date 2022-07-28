@@ -14,6 +14,8 @@ Seguindo as necessidades apontadas na concepção do projeto, apresentaremos os 
 |1|Módulo de carrinho Vrum Vrum|R$-|R$-|
 ||Total|R$159,90|R$0,00|
 
+O custo total deste projeto foi zerado pois todos os componentes utilizados estavam disponíveis nos laboratórios do DAELN/IFSC.
+
 ## Bluetooth VS WiFi
 
 |#|  **BLUETOOTH** | **WIFI** |
@@ -46,11 +48,9 @@ O que precisa que faça, quais me atendem, preços, descartar arduino,
 
 ## ServoMotor
 
-Já tivemos experiência com o Servomotor Tower Pro SG90. Este servomotor pode rotacionar em aproximadamente 180º, 90º para cada lado. Possui cerca de 9g e 3 pinos analógicos: VCC, GND e comando. Ele opera em um torque de 8kgfcm, velocidade de 60º/0.1s e tensão de operação de 3V a 7,2V. Por fim, ele é um dos mais baratos do mercado. - #Não deu - Não vai dar de usar, por conta da fragilidade do material de plástico
+Já tivemos experiência com o Servomotor Tower Pro SG90. Este servomotor pode rotacionar em aproximadamente 180º, 90º para cada lado. Possui cerca de 9g e 3 pinos analógicos: VCC, GND e comando. Ele opera em um torque de 8kgfcm, velocidade de 60º/0.1s e tensão de operação de 3V a 7,2V. Por fim, ele é um dos mais baratos do mercado. Infelizmente, este componente é extremamente frágil e não conseguiremos utilizá-lo de forma satisfatória. 
 
-Utilizar o MG995
-
-
+Outro servomotor disponível nos laboratórios foi o MG995. O Servo TowerPro MG995 possui ótima qualidade e alto torque, todas as suas engrenagens são metálicas, possui faixa de rotação de 180 graus, a tensão de operação é de 4,8V a 7,2V (facilmente atingida por meio das baterias do carrinho). Por fim, sua escolha se deu principalmente por sua robustez, que atingia as necessidades do projeto.
 
 ## Sensor de proximidade
 
