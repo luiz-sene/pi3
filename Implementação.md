@@ -16,3 +16,16 @@ Assim como na parta da programação, inicialmente realizamos todos os testes in
 Antes de conectar todos os componentes ao carrinho, decidimos testar o acionamento do servo motor e do sensor de obstáculo juntamente aos leds na brotoboard, verificando e corrigindo algumas inconsistências do código. Logo após todos os testes, acoplamos todos os componentes ao carrinho. Nesta etapa, realizamos a calibragem dos PWMs, conseguindo acionar corretamente o giro de todas as rodas, de forma a fazê-lo andar em todas as direções conforme desejado e acionado pelo controle do usuário.
 
 Após confirmarmos o funcionamento de todos os componentes integrados, desejamos corrigir um detalhe que poderia nos causar problemas: a utilização de cabos. Para isto, realizamos a confecção de uma placa de circuito impresso, onde pudemos acoplar o ESP32 de forma a realizar todas as conexões com a mínima utilização de cabos jumper necessária. Acoplamos também o conector para o cabo flat do carrinho, o qual se conectá a todas as funcionalidades que o carrinho possui. Infelizmente, passamos por problemas nesta etapa que nos fez abortar a utilização desta PCI na apresentação final do projeto. Os problemas já foram corrigidos no layout da placa projetada, o qual pode ser encontrado [clicando neste link](https://github.com/juliopacheco12/PIN22107/tree/main/PCI), porém não houve tempo hábil para a nova impressão.
+
+Felizmente, apesar de não ter a placa para acoplar os componentes, realizamos a montagem de todos os componentes "a bordo" do carrinho, e o funcionamento de toda a estrutura pode ser confirmado em sala de aula.
+
+Por fim, devido ao encurtamento do semestre 2022/1, o qual teve menos semanas que um semestre comum no IFSC, visto a necessidade de tornar o calendário acadêmico normal novamente pós pandemia, alguns pontos desejados não puderam ser implementados.
+
+1. Nova placa de circuito impresso;
+2. Impressão 3D da haste flexível;
+3. Impressão 3D de estrutura de suporte para os componetes para acoplar ao carrinho.
+
+Era de desejo nosso realizar estes três pontos, mas infelizmente não foi possível. Como citado, solucionamos a falta destes pontos da seguinte forma:
+1. Estrutura de cabos jumper para conexão entre componentes, validando o caso;
+2. Apenas realizando validação do funcionamento, visto que esta estrutura seria apenas para "embelezar" o projeto;
+3. Acoplar componentes diretamente na estrutura existente do carrinho.
