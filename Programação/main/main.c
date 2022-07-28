@@ -4,7 +4,6 @@
 #include "bt.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#define GATTS_TABLE_TAG "GATTS_TABLE_DEMO"
 
 void app_main(void)
 {
