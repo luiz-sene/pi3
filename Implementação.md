@@ -20,7 +20,6 @@ Após confirmarmos o funcionamento de todos os componentes integrados, desejamos
 Felizmente, apesar de não ter a placa para acoplar os componentes, realizamos a montagem de todos os componentes "a bordo" do carrinho, e o funcionamento de toda a estrutura pode ser confirmado em sala de aula.
 
 Por fim, devido ao encurtamento do semestre 2022/1, o qual teve menos semanas que um semestre comum no IFSC, visto a necessidade de tornar o calendário acadêmico normal novamente pós pandemia, alguns pontos desejados não puderam ser implementados.
-
 1. Nova placa de circuito impresso;
 2. Impressão 3D da haste flexível;
 3. Impressão 3D de estrutura de suporte para os componetes para acoplar ao carrinho.
@@ -31,3 +30,7 @@ Era de desejo nosso realizar estes três pontos, mas infelizmente não foi poss�
 3. Acoplar componentes diretamente na estrutura pré existente do carrinho.
 
 ## Sugestões para trabalhos futuros
+No caso de seguimento deste projeto por algum colega, segue algumas sugestões que podem ser realizadas para aprimorar o projeto:
+1. Sanar pontos não implementados citados no tópico anterior;
+2. Armazenar dados de utilização;
+3. Expor ao usuário dados de utilização do brinquedo;
