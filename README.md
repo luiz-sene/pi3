@@ -1,6 +1,6 @@
  # README
 
-Este repositório possui o desenvolvimento do projeto da disciplina Projeto Integrador III realizado pelo alunos Luiz Fernando Assis Sene e Julio seu nome ta depois, toma.
+Este repositório possui o desenvolvimento do projeto da disciplina Projeto Integrador III realizado pelo alunos Julio Sidney Veras Pacheco e Luiz Fernando Assis Sene.
 
 [Concepção](https://github.com/juliopacheco12/PIN22107/blob/main/CONCEPÇÃO.md)
 
