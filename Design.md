@@ -81,3 +81,7 @@ O Qt Creator é um ambiente de desenvolvimento integrado (IDE) multiplataforma c
 O MIT App Inventor é um ambiente de programação visual intuitivo que permite que todos criem aplicativos totalmente funcionais para telefones Android, iPhones e tablets Android/iOS. Essa ferramenta é baseada em blocos, facilitando a criação de aplicativos complexos e de alto impacto em um tempo significativamente menor do que os ambientes de programação tradicionais.
 
 No caso do Qt Creator, pudemos ter o auxilio e orientação do Profº Hugo Marcondes, na disciplina de Programação Orientada a Objetos. No entanto, nesta disciplina utilizamos apenas o framework do Arduino para implementar nossos objetivos. Como este framework era dispensável para a disciplina de Projeto Integrador III, implementamos também uma interface final no MIT App Inventor.
+
+## Placa de Circuito Impresso
+
+Foi implementado também uma placa de circuito impresso para acoplar com facilidade o microcontrolador escolhido com o cabo flet do carrinho. Para isto, foi utilizado o software KiCad, que é um programa computacional de código aberto para projeto eletrônico assistido por computador, com o objetivo de facilitar a concepção de layouts e suas conversões para placas de circuito impresso. Além dele, foi utilizado as instalações do IFSC para a confecção da placa.
