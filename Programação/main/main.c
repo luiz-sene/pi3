@@ -22,7 +22,7 @@ void app_main(void)
    /*inicializa servo motor*/
    init_servomotor();
 
-   
+/*função que chama as diversas funções do bt*/   
    rotina_bt();
    while(1){
       verifica_sensor();
