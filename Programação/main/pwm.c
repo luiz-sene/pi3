@@ -240,7 +240,7 @@ void direcao(int32_t dir,int32_t duty){
 
         case 3: /*movimento para a para esquerda*/
         movimenta_DF(duty/3,sentido);
-        movimenta_EF(duty/3,sentido);
+        movimenta_EF(duty,sentido);
 
         break;
 
