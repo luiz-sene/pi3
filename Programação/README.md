@@ -1,6 +1,6 @@
 # Repositorio de codigos e configurações
 
-Todos os codigos foram gerados tendo como alvo o microcontrolador ESP32. Os arquivos principais se encontram na pasta Main e estão dividiso da seguinte forma:
+Todos os codigos foram gerados tendo como alvo o microcontrolador ESP32. Os arquivos principais se encontram na pasta Main e estão divididos da seguinte forma:
 
 Main - arquivo principal.
 
