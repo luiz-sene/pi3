@@ -6,8 +6,8 @@ Pasta com arquivos do projeto da PCI utilizada para acoplar o ESP32 ao carrinho 
 |:-:|:-:|
 |Echo 0|32|
 |Triger 0|33|
-|Echo 1|22|
-|Triger 1|23|
+|Echo 1|23|
+|Triger 1|22|
 |Optico Direita|2|
 |Optico Esquerda|15|
 |PWM 1|19|
