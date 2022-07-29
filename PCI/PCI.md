@@ -14,5 +14,5 @@ Pasta com arquivos do projeto da PCI utilizada para acoplar o ESP32 ao carrinho 
 |PWM 1N|18|
 |PWM 2|26|
 |PWM 2N|25|
-|Servo Motor||
-|Sensor de presença||
+|Servo Motor|4|
+|Sensor de presença|12|
