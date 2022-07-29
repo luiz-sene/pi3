@@ -9,8 +9,11 @@ Cada componente foi testado separadamente através de rotinas simples, após iss
 
 ![Aplicativo](https://github.com/juliopacheco12/PIN22107/blob/main/Imagens/App%20Miau%20Miau.jpeg)
 
-### Código
+### Código esp32
 [Clique aqui para ver o código deste projeto](https://github.com/juliopacheco12/PIN22107/tree/main/Programação).
+
+### App
+[Clique aqui para ver o código do App](https://github.com/juliopacheco12/PIN22107/tree/main/App)
 
 ## Montagem
 Assim como na parta da programação, inicialmente realizamos todos os testes individuais, de forma a entender o funcionamento dos componentes utilizados. Caso este projeto seja continuado, é de extrema importância o entendimento do funcionamento do carrinho por meio da documentação disponibilizada pelos laboratórios responsáveis por todos os carrinhos disponibilizados pelo IFSC. O teste dos PWMs ocorreram primeiramente com o auxilio de um osciloscópio, onde pudemos verificar o correto funcionamento. Testamos também este acionamento com o auxilio de 4 leds, onde pudemos verificar o correto acionamento de todas as direções desejadas e acionadas pelo controle do usuário.
