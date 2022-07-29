@@ -6,21 +6,21 @@
 #include "pwm.h"
 
 /*Conforme a documentação disponibilizado do carrinho, ele utiliza duas pontes H, uma para cada lado, portanto
-aqui utilizamos os pinos 18 e 19 para o lado direito, um para andar pra frente e outro para tras, respectivamente
-e os pinos 25 e 26 para o lado esquerdo*/
+aqui utilizamos os pinos 19 e 18 para o lado direito, um para andar pra frente e outro para tras, respectivamente
+e os pinos 26 e 25 para o lado esquerdo*/
 
 /*define os pinos do pwm para andar para frente*/
 #define LEDC_TIMER                  LEDC_TIMER_0            // seleciona o timer 0, possui 3 timers
 #define LEDC_MODE                   LEDC_LOW_SPEED_MODE     // modo em low speed
-#define LEDC_OUTPUT_IO_DF           (18)                    // pino 18 de saida; PWM1 
+#define LEDC_OUTPUT_IO_DF           (19)                    // pino 19 de saida; PWM1 
 #define LEDC_CHANNEL_DF             LEDC_CHANNEL_0          // seleciona o canal 0, possui 16
-#define LEDC_OUTPUT_IO_EF           (25)                    // PWM2
+#define LEDC_OUTPUT_IO_EF           (26)                    // PWM2
 #define LEDC_CHANNEL_EF             LEDC_CHANNEL_1          // seleciona o canal 1
 
 /*define os pinos do pwm para andar para tras*/
-#define LEDC_OUTPUT_IO_DF_r           (19)                    // PWM1N
+#define LEDC_OUTPUT_IO_DF_r           (18)                    // PWM1N
 #define LEDC_CHANNEL_DF_r             LEDC_CHANNEL_4          // seleciona o canal 0, possui 16
-#define LEDC_OUTPUT_IO_EF_r           (26)                    // PWM2N
+#define LEDC_OUTPUT_IO_EF_r           (25)                    // PWM2N
 #define LEDC_CHANNEL_EF_r             LEDC_CHANNEL_5          // 
 
 #define LEDC_DUTY_RES               LEDC_TIMER_13_BIT       // resolução de 13 bits, maximo 15
